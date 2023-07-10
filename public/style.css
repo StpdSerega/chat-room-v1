@@ -37,7 +37,7 @@ body {
     max-width: 400px;
 }
 
-.screen .formInput {
+.screen .form-input {
     width: 100%;
     margin: 20px 0px;
 }
@@ -51,19 +51,19 @@ body {
     display: inline-block;
 }
 
-.screen .formInput label {
+.screen .form-input label {
     display: block;
     margin-bottom: 5px;
 }
 
-.screen .formInput input {
+.screen .form-input input {
     width: 100%;
     padding: 10px;
     border: 1px solid #555;
     font-size: 16px;
 }
 
-.screen .formInput button {
+.screen .form-input button {
     padding: 10px 20px;
     background: #111;
     color: #eee;
@@ -117,11 +117,11 @@ body {
     padding: 10px;
 }
 
-.chat-screen .messages .message.myMessage {
+.chat-screen .messages .message.my-message {
     justify-content: flex-end;
 }
 
-.chat-screen .messages .message.someMessage {
+.chat-screen .messages .message.other-message {
     justify-content: flex-start;
 }
 
